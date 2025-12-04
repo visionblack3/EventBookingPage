@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cards Booking</title>
+</head>
+<body>
+    <div class="navbar">
+        <label class="main-head">Indoor Event</label>
+    </div>
+    <div class="game-head">
+        <label class="game-name">Cards</label>
+        <label class="seats">No of Seats Available: 23</label>
+    </div>
+    <div class="form-card">
+        <img src="../TaskPending/images/cards.webp" alt="event1" class="card-img">
+        <div class="form-card-items">
+            <div class="form-card-item-list">
+                <label class="form-card-label">Name</label>
+                <input type="text" class="form-inp">
+            </div>
+            <div class="form-card-item-list">
+                <label class="form-card-label">Email ID</label>
+                <input type="text" class="form-inp">
+            </div>
+            <div class="form-card-item-list">
+                <label class="form-card-label">Name</label>
+                <input type="text" class="form-inp">
+            </div>
+            <div class="form-card-item-list">
+                <label class="form-card-label">No of seats</label>
+                <select id="myDropdown" name="myDropdownName">
+                    <option value="option1">1</option>
+                    <option value="option2">2</option>
+                    <option value="option3">4</option>
+                </select>
+            </div>
+            <div class="form-card-item-list">
+                <label class="form-card-label">Name of Attendees</label>
+                <input type="text" class="form-inp">
+            </div>
+            <div class="form-card-item-list">
+                <button class="card-submit" onclick="alert('Booked')">Book</button>
+                <button class="card-submit" onclick="alert('canceled')">Cancel</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
